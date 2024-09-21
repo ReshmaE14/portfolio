@@ -1,0 +1,46 @@
+
+.template2 {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .template2 header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .template2 header h1 {
+    margin-bottom: 5px;
+  }
+  
+  .template2 section {
+    margin-bottom: 20px;
+  }
+  
+  .template2 .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .template2 .skill {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+  
+  .template2 .experience-item,
+  .template2 .project-card {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .template2 a {
+    color: blue;
+    text-decoration: none;
+  }
+  

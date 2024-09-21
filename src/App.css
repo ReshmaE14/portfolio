@@ -1,38 +1,93 @@
 .App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  text-align: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.forms {
+  flex: 1;
+  max-width: 400px;
+  overflow-y: auto;
+  max-height: 90vh;
+  padding-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-section {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
 }
+
+.form-section h3 {
+  margin-bottom: 10px;
+}
+
+.form-section input,
+.form-section textarea,
+.form-section select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.skill-item,
+.experience-item,
+.project-item {
+  display: flex;
+ 
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.skill-item input,
+.experience-item input,
+.project-item input,
+.project-item textarea {
+  flex: 1;
+}
+
+.skill-item button,
+.experience-item button,
+.project-item button {
+  flex: 0;
+}
+
+.preview {
+  flex: 2;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.portfolio-preview {
+  padding: 20px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+
