@@ -26,7 +26,7 @@ const ExperienceForm = ({ experience, setExperience }) => {
       <h3>Experience</h3>
       {experience.map((exp, index) => (
         <div key={index} className="experience-item">
-          <input
+          {/* <input
             type="text"
             name="company"
             value={exp.company}
@@ -46,7 +46,7 @@ const ExperienceForm = ({ experience, setExperience }) => {
             value={exp.duration}
             onChange={(e) => handleChange(index, e)}
             placeholder="Duration"
-          />
+          /> */}
           <textarea
             name="description"
             value={exp.description}
