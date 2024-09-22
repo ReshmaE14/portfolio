@@ -18,8 +18,8 @@ const Template1 = ({ personalInfo, skills, experience, projects }) => {
       <h2>Experience</h2>
       {experience.map((exp, idx) => (
         <div key={idx} className="experience">
-          <h3>{exp.role || 'Your Role'} at {exp.company || 'Company'}</h3>
-          <p>{exp.duration || 'Duration'}</p>
+          {/* <h3>{exp.role || 'Your Role'} at {exp.company || 'Company'}</h3> */}
+          {/* <p>{exp.duration || 'Duration'}</p> */}
           <p>{exp.description || 'Description of your role and responsibilities.'}</p>
         </div>
       ))}
