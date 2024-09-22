@@ -12,8 +12,8 @@ const Template2 = ({ personalInfo, skills, experience, projects }) => {
       </header>
 
       <section>
-        <h2>About Me</h2>
-        <p>{personalInfo.about || 'A brief introduction about yourself.'}</p>
+        {/* <h2>About Me</h2>
+        <p>{personalInfo.about || 'A brief introduction about yourself.'}</p> */}
       </section>
 
       <section>
